@@ -925,7 +925,7 @@ body {
     height: 375px;
     position: absolute;
     z-index: 1;
-    text-shadow: 0px 5px 0px rgb(17, 116, 195);
+    text-shadow: 0px 3px 0px rgb(17, 116, 195);
 }
 
 .back {

@@ -232,7 +232,7 @@ fieldset[disabled] .btn-lg.active {
     font-size: 1.25em;
   }
 }
-header {
+#home-header {
   background-image: url('../img/header-bg.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -244,6 +244,20 @@ header {
   text-align: center;
   color: white;
 }
+
+#about-header {
+  background-image: url('../img/about-bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: white;
+}
+
 header .intro-text {
   padding-top: 100px;
   padding-bottom: 50px;
@@ -788,6 +802,34 @@ body {
   color:#1174C3;
 }
 
+#bg-y {
+  background-color:#FDB82C;
+}
+
+#bg-r {
+  background-color:#710000;
+}
+
+#bg-b {
+  background-color:#001E46;
+}
+
+#bg-g {
+  background-color:#81B822;
+}
+
+#bg-t {
+  background-color:#118172;
+}
+
+#bg-p {
+  background-color:#672578;
+}
+
+#bg-lb {
+  background-color:#1174C3;
+}
+
 #about {
   font-size: 20px;
 }
@@ -815,4 +857,83 @@ body {
 
 .img-sm {
   width: 50px;
+}
+
+.dropdown li {
+  display: block;
+  list-style: none;
+  text-decoration: none;
+}
+
+.info-card {
+	-webkit-perspective: 750px;
+  color: #ffffff;
+}
+
+.front, .back {
+	transition: -webkit-transform 1s;
+	-webkit-transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+}
+
+.front {
+  font-size: 50px;
+  padding-top: 140px;
+  text-align: center;
+  vertical-align: middle;
+	overflow: hidden;
+	width: 375px;
+	height: 375px;
+	position: absolute;
+	z-index: 1;
+  text-shadow: 0px 5px 0px rgb(17, 116, 195);
+}
+
+.back {
+  font-size: 18px;
+	padding: 50px;
+	width: 375px;
+	height: 375px;
+	-webkit-transform: rotateY(-180deg);
+}
+
+.info-card:hover .back {
+	-webkit-transform: rotateY(0);
+}
+
+.info-card:hover .front {
+	-webkit-transform: rotateY(180deg);
+}
+
+.card-image {
+width: 100%;
+height: 100%;
+}
+
+.a1 {
+  background-image: url('../img/about/a1.jpg');
+}
+.a2 {
+  background-image: url('../img/about/a2.jpg');
+}
+.a3 {
+  background-image: url('../img/about/a3.jpg');
+}
+.b1 {
+  background-image: url('../img/about/b1.jpg');
+}
+.b2 {
+  background-image: url('../img/about/b2.jpg');
+}
+.b3 {
+  background-image: url('../img/about/b3.jpg');
+}
+.c1 {
+  background-image: url('../img/about/c1.jpg');
+}
+.c2 {
+  background-image: url('../img/about/c2.jpg');
+}
+.c3 {
+  background-image: url('../img/about/c3.jpg');
 }

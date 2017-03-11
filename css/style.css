@@ -152,7 +152,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mainNav .container .navbar-nav .nav-item .nav-link:hover, #mainNav .container .navbar-nav .nav-item .nav-link.active {
-    color: #002050;
+    color: #710000;
 }
 
 @media (min-width: 992px) {

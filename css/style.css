@@ -114,7 +114,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mainNav {
-    background-color: #06283E;
+    background-color: #ba141a; /*rgb(186,20,26);*/
 }
 
 #mainNav .navbar-toggler {
@@ -152,7 +152,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mainNav .container .navbar-nav .nav-item .nav-link:hover, #mainNav .container .navbar-nav .nav-item .nav-link.active {
-    color: #FDB82C;
+    color: #002050;
 }
 
 @media (min-width: 992px) {
@@ -174,7 +174,7 @@ h1, h2, h3, h4, h5, h6 {
         padding: 1.1em 1em !important;
     }
     #mainNav.navbar-shrink {
-        background-color: #06283E;
+        background-color: rgb(0,130,114);
         padding: 0;
     }
     #mainNav.navbar-shrink .navbar-brand {
@@ -292,7 +292,7 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-link {
     display: block;
     position: relative;
-    max-width: 400px;
+    max-width: 300px;
     margin: 0 auto;
 }
 
@@ -331,7 +331,7 @@ section h3.section-subheading {
 }
 
 #portfolio .portfolio-item .portfolio-caption {
-    max-width: 400px;
+    max-width: 300px;
     margin: 0 auto;
     background-color: white;
     text-align: center;
@@ -892,7 +892,7 @@ body {
     padding-right: 8px;
     margin-top: 0px;
     margin-bottom: 0px;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.5);
     border: none;
 }
 

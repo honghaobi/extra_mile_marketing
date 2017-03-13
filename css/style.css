@@ -235,6 +235,32 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
 }
 
+#credentials-header {
+    background-image: url('../img/credentials-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+#community-header {
+    background-image: url('../img/community-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: white;
+}
+
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;

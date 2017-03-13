@@ -38,5 +38,12 @@
         });
         return false;
     });
-    
+
+    $('.trophy-icon').parent().on('mouseenter', function(){
+      $(this).children().removeAttr('id');
+      $(this).attr('id', 'hl-y');
+    }).on('mouseleave',function(){
+      $(this).attr('id', 'hl-b');
+    });
+
 })(jQuery); // End of use strict

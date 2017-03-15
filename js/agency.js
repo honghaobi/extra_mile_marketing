@@ -46,4 +46,8 @@
       $(this).attr('id', 'hl-b');
     });
 
+    $('#myModal').on('shown.bs.modal', function () {
+      $('#myInput').focus()
+    })
+
 })(jQuery); // End of use strict

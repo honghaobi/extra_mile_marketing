@@ -152,7 +152,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mainNav .container .navbar-nav .nav-item .nav-link:hover, #mainNav .container .navbar-nav .nav-item .nav-link.active {
-    color: #710000;
+    color: #FDB82C;
 }
 
 @media (min-width: 992px) {
@@ -261,6 +261,19 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
 }
 
+#services-header {
+    background-image: url('../img/services-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: white;
+}
+
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
@@ -344,7 +357,7 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-link {
     display: block;
     position: relative;
-    max-width: 300px;
+    max-width: 480px;
     margin: 0 auto;
 }
 
@@ -383,7 +396,7 @@ section h3.section-subheading {
 }
 
 #portfolio .portfolio-item .portfolio-caption {
-    max-width: 300px;
+    max-width: 480px;
     margin: 0 auto;
     background-color: white;
     text-align: center;
@@ -935,6 +948,7 @@ body {
 }
 
 .dropdown-menu {
+    width: 300px;
     list-style: none;
     text-decoration: none;
     overflow: hidden;

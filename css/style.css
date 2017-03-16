@@ -114,7 +114,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mainNav {
-    background-color: #ba141a; /*rgb(186,20,26);*/
+    background-color: #118172;
 }
 
 #mainNav .navbar-toggler {
@@ -263,6 +263,55 @@ h1, h2, h3, h4, h5, h6 {
 
 #services-header {
     background-image: url('../img/services-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+#service1-header {
+    background-image: url('../img/service1-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: white;
+}
+#service2-header {
+    background-image: url('../img/service2-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: white;
+}
+#service3-header {
+    background-image: url('../img/service3-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: white;
+}
+#service4-header {
+    background-image: url('../img/service4-bg.jpg');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -1166,4 +1215,8 @@ body {
     text-transform: uppercase;
     color: #a5a5a5;
     letter-spacing: 1px;
+}
+
+.info-img {
+  width: 100%;
 }

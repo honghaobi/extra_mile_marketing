@@ -1218,5 +1218,239 @@ body {
 }
 
 .info-img {
-  width: 80%;
+  width: 100%;
+}
+
+.p-img {
+  width: 100%;
+  position: absolute;
+  transition: all .2s ease-in-out;
+}
+
+.p-img:hover {
+  transform: scale(1.1);
+}
+
+.s1-e {
+  top: 15%;
+  left: 0%;
+  width: 30%;
+  position: absolute;
+}
+
+.s1-b {
+  top: 40%;
+  left: 12%;
+  width: 30%;
+  position: absolute;
+}
+
+.s1-c {
+  top: 15%;
+  left: 24%;
+  width: 30%;
+  position: absolute;
+}
+
+.s1-d {
+  top: 40%;
+  left: 36%;
+  width: 30%;
+  position: absolute;
+}
+
+.s1-a {
+  top: 65%;
+  left: 48%;
+  width: 30%;
+  position: absolute;
+}
+
+.s2-a {
+  top: 15%;
+  left: 0%;
+  width: 30%;
+  position: absolute;
+}
+
+.s2-b {
+  top: 40%;
+  left: 12%;
+  width: 30%;
+  position: absolute;
+}
+
+.s2-c {
+  top: 15%;
+  left: 24%;
+  width: 30%;
+  position: absolute;
+}
+
+.s2-d {
+  top: 40%;
+  left: 36%;
+  width: 30%;
+  position: absolute;
+}
+
+.s2-e {
+  top: 15%;
+  left: 48%;
+  width: 30%;
+  position: absolute;
+}
+
+.s2-f {
+  top: 65%;
+  left: 0%;
+  width: 30%;
+  position: absolute;
+}
+
+.s2-g {
+  top: 65%;
+  left: 24%;
+  width: 30%;
+  position: absolute;
+}
+
+.s2-h {
+  top: 65%;
+  left: 48%;
+  width: 30%;
+  position: absolute;
+}
+
+.s2-i {
+  top: 40%;
+  left: 60%;
+  width: 30%;
+  position: absolute;
+}
+
+.s3-a {
+  top: 15%;
+  left: 0%;
+  width: 30%;
+  position: absolute;
+}
+
+.s3-b {
+  top: 40%;
+  left: 12%;
+  width: 30%;
+  position: absolute;
+}
+
+.s3-c {
+  top: 15%;
+  left: 24%;
+  width: 30%;
+  position: absolute;
+}
+
+.s3-d {
+  top: 40%;
+  left: 36%;
+  width: 30%;
+  position: absolute;
+}
+
+.s3-e {
+  top: 15%;
+  left: 48%;
+  width: 30%;
+  position: absolute;
+}
+
+.s3-f {
+  top: 65%;
+  left: 0%;
+  width: 30%;
+  position: absolute;
+}
+
+.s3-g {
+  top: 65%;
+  left: 24%;
+  width: 30%;
+  position: absolute;
+}
+
+.s3-h {
+  top: 40%;
+  left: 60%;
+  width: 30%;
+  position: absolute;
+}
+
+.s4-a {
+  top: 15%;
+  left: 0%;
+  width: 30%;
+  position: absolute;
+}
+
+.s4-b {
+  top: 40%;
+  left: 12%;
+  width: 30%;
+  position: absolute;
+}
+
+.s4-c {
+  top: 15%;
+  left: 24%;
+  width: 30%;
+  position: absolute;
+}
+
+.s4-d {
+  top: 40%;
+  left: 36%;
+  width: 30%;
+  position: absolute;
+}
+
+.s4-e {
+  top: 15%;
+  left: 48%;
+  width: 30%;
+  position: absolute;
+}
+
+.s4-f {
+  top: 65%;
+  left: 0%;
+  width: 30%;
+  position: absolute;
+}
+
+.s4-g {
+  top: 65%;
+  left: 24%;
+  width: 30%;
+  position: absolute;
+}
+
+.s4-h {
+  top: 40%;
+  left: 60%;
+  width: 30%;
+  position: absolute;
+}
+
+.s4-i {
+  top: 65%;
+  left: 48%;
+  width: 30%;
+  position: absolute;
+}
+
+.s4-j {
+  top: 65%;
+  left: 72%;
+  width: 30%;
+  position: absolute;
 }

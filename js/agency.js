@@ -39,12 +39,12 @@
         return false;
     });
 
-    $('.trophy-icon').parent().on('mouseenter', function(){
-      $(this).children().removeAttr('id');
-      $(this).attr('id', 'hl-y');
-    }).on('mouseleave',function(){
-      $(this).attr('id', 'hl-b');
-    });
+    // $('.trophy-icon').parent().on('mouseenter', function(){
+    //   $(this).children().removeAttr('id');
+    //   $(this).attr('id', 'hl-y');
+    // }).on('mouseleave',function(){
+    //   $(this).attr('id', 'hl-b');
+    // });
 
     $('#myModal').on('shown.bs.modal', function () {
       $('#myInput').focus()

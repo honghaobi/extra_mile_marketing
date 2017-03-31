@@ -398,6 +398,17 @@ section h3.section-subheading {
     text-transform: none;
 }
 
+#service-all {
+  background-image: url('../img/texture.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
 #portfolio .portfolio-item {
     margin: 0 0 15px;
     right: 0;

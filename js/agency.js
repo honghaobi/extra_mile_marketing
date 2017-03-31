@@ -48,6 +48,20 @@
 
     $('#myModal').on('shown.bs.modal', function () {
       $('#myInput').focus()
-    })
+    });
+
+    $('.p-img').on('click', function(event) {
+      $('.panel-container').show();
+      $('.panel-img').addClass('animated fadeIn').removeClass('fadeOut');
+      console.log(this.dataset.description);
+      $('.panel-container').append("<p>" + this.dataset.description + "</p>");
+    });
+
+    $('.panel-container').on('click', function(event) {
+      $('.panel-container').hide();
+      $('.panel-img').removeClass('fadeIn').addClass('fadeOut');
+    });
+
+
 
 })(jQuery); // End of use strict

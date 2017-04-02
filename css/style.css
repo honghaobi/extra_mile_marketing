@@ -323,6 +323,19 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
 }
 
+#process-header {
+    background-image: url('../img/process-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: white;
+}
+
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
@@ -1592,4 +1605,13 @@ body {
   left: 72%;
   width: 30%;
   position: absolute;
+}
+
+.fullwidth-img {
+  margin-left: -20%;
+  width: 140%;
+}
+
+.contained-img {
+  width: 100%;
 }

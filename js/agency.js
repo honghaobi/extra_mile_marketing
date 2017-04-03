@@ -53,7 +53,6 @@
     $('.p-img').on('click', function(event) {
       $('.panel-container').show();
       $('.panel-img').addClass('animated fadeIn').removeClass('fadeOut');
-      console.log(this.dataset.description);
       $('.panel-container').append("<p>" + this.dataset.description + "</p>");
     });
 
@@ -62,6 +61,6 @@
       $('.panel-img').removeClass('fadeIn').addClass('fadeOut');
     });
 
-
+    $().timelinr();
 
 })(jQuery); // End of use strict

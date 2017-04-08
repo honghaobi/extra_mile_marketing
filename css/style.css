@@ -426,7 +426,7 @@ section h3.section-subheading {
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
-    background: rgba(254, 209, 54, 0.9);
+    /*background: rgba(254, 209, 54, 0.9);*/
     position: absolute;
     width: 100%;
     height: 100%;
@@ -434,6 +434,50 @@ section h3.section-subheading {
     transition: all ease 0.5s;
     -webkit-transition: all ease 0.5s;
     -moz-transition: all ease 0.5s;
+}
+
+#portfolio .portfolio-r {
+  background-color: rgba(113, 0, 0, 0.7);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}
+
+#portfolio .portfolio-g {
+  background-color: rgba(129, 184, 34, 0.7);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}
+
+#portfolio .portfolio-y {
+  background-color: rgba(252, 184, 44, 0.7);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}
+
+#portfolio .portfolio-t {
+  background-color: rgba(17, 129, 114, 0.7);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -1845,15 +1889,15 @@ body {
     box-shadow: none;
   }
   .search-bar input:hover {
-    border: 2px solid #118172;
-    box-shadow: 0 0 2px 2px #118172;
+    border: 2px solid #672578;
+    box-shadow: 0 0 2px 2px #df65fe;
   }
   .search-bar input:focus, .search-bar input:valid {
     width: 300px;
     border: 2px solid #ffffff;
     outline: none;
     cursor: auto;
-    background-color: #118172;
+    background-color: #672578;
     color: #ffffff;
   }
   .search-bar input:focus::-webkit-input-placeholder, .search-bar input:valid::-webkit-input-placeholder {
@@ -1882,7 +1926,7 @@ body {
     height: 20px;
     width: 20px;
     border-radius: 50%;
-    border: 2px solid #118172;
+    border: 2px solid #672578;
     position: absolute;
     right: 12px;
     top: 8px;
@@ -1897,6 +1941,6 @@ body {
             transform: rotate(45deg);
     height: 2px;
     width: 10px;
-    background-color: #118172;
+    background-color: #672578;
     border-radius: 10px;
   }

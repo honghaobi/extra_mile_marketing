@@ -49,11 +49,6 @@ h1, h2, h3, h4, h5, h6 {
     border-color: #FDB82C;
 }
 
-.btn-primary .badge {
-    color: #FDB82C;
-    background-color: white;
-}
-
 .btn-xl {
     color: white;
     background-color: #FDB82C;
@@ -110,6 +105,36 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-lg .badge {
     color: #FDB82C;
+    background-color: white;
+}
+
+
+.btn-purple {
+    color: white;
+    background-color: #672578;
+    border-color: #672578;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.btn-purple:hover, .btn-purple:focus, .btn-purple:active, .btn-purple.active, .btn-purple:active:focus, .open .dropdown-toggle.btn-purple {
+    color: white;
+    background-color: #7f4b8c;
+    border-color: #7f4b8c;
+}
+
+.btn-purple:active, .btn-purple.active, .open .dropdown-toggle.btn-purple {
+    background-image: none;
+}
+
+.btn-purple.disabled, .btn-purple[disabled], fieldset[disabled] .btn-purple, .btn-purple.disabled:hover, .btn-purple[disabled]:hover, fieldset[disabled] .btn-purple:hover, .btn-purple.disabled:focus, .btn-purple[disabled]:focus, fieldset[disabled] .btn-purple:focus, .btn-purple.disabled:active, .btn-purple[disabled]:active, fieldset[disabled] .btn-purple:active, .btn-purple.disabled.active, .btn-purple[disabled].active, fieldset[disabled] .btn-purple.active {
+    background-color: #672578;
+    border-color: #672578;
+}
+
+.btn-purple .badge {
+    color: #672578;
     background-color: white;
 }
 
@@ -1345,7 +1370,9 @@ body {
 }
 
 .info-img {
-  width: 100%;
+  width: 130%;
+  margin-left: -15%;
+  margin-bottom: -30%;
 }
 
 .fun-img {
@@ -1439,6 +1466,106 @@ body {
     border: 4px solid transparent;
     background: #bcbcbc;
 }
+
+@media (min-width: 768px) {
+  .all-services {
+    height: 800px;
+  }
+}
+
+@media (min-width: 400px) {
+  .all-services {
+    height: 700px;
+  }
+}
+
+.all-services {
+  height: 1000px;
+  background-image: url('../img/services/all-service.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+
+.all-service-img {
+  position: absolute;
+  width: 100%;
+}
+
+.alpha {
+  left: 0;
+
+}
+
+.s-img {
+  cursor: pointer;
+  width: 100%;
+  position: absolute;
+  transition: all .2s ease-in-out;
+}
+
+.s-img:hover {
+  transform: scale(1.1);
+}
+
+.s-img-container {
+  width: 13%;
+  position: absolute;
+}
+
+.r1 {
+  top: 0%;
+}
+
+.r2 {
+  margin-top: 12.5%;
+}
+
+.r3 {
+  margin-top: 25%;
+}
+
+.r4 {
+  margin-top: 37.5%;
+}
+
+.c1 {
+  left: 0%;
+}
+
+.c2 {
+  left: 12.5%;
+}
+
+.c3 {
+  left: 25%;
+}
+
+.c4 {
+  left: 37.5%;
+}
+
+.c5 {
+  left: 50%;
+}
+
+.c6 {
+  left: 62.5%;
+}
+
+.c7 {
+  left: 75%;
+}
+
+.c8 {
+  left: 87.5%;
+}
+
 
 .p-img {
   cursor: pointer;
@@ -1846,8 +1973,6 @@ body {
     opacity: 0.2;
   }
 
-
-
   .search-bar {
     height: auto;
     width: auto;
@@ -1890,7 +2015,7 @@ body {
   }
   .search-bar input:hover {
     border: 2px solid #672578;
-    box-shadow: 0 0 2px 2px #df65fe;
+    box-shadow: 0 0 2px 2px #eca3ff;
   }
   .search-bar input:focus, .search-bar input:valid {
     width: 300px;
@@ -1943,4 +2068,19 @@ body {
     width: 10px;
     background-color: #672578;
     border-radius: 10px;
+  }
+
+  .search-btn {
+    opacity: 0.8;
+    position: absolute;
+    left: 105%;
+    top: 0%;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 42px;
+  }
+
+  #chartdiv {
+  width: 100%;
+  height: 800px;
   }

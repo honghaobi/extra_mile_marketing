@@ -32,6 +32,7 @@
         }
     });
 
+
     $('.flip').click(function(){
         $(this).find('.card').addClass('flipped').mouseleave(function(){
             $(this).removeClass('flipped');
@@ -54,7 +55,55 @@
       $('.panel-img').removeClass('fadeIn').addClass('fadeOut');
     });
 
-    $().timelinr();
+    $('.alphabet').on('click', function(){
+      $('.r1, .c1').removeClass('r1').addClass('r3');
+    });
+
+    if ($("#timeline").get(0)) {
+      $().timelinr();
+    }
+
+    /**
+     * Create the map
+     */
+    var map = AmCharts.makeChart("chartdiv", {
+      "type": "map",
+      "theme": "light",
+      "projection": "eckert3",
+      "dataProvider": {
+        "map": "worldLow",
+        "getAreasFromMap": true
+      },
+      "areasSettings": {
+        "selectedColor": "#672578"
+      },
+      /**
+       * Add init event to perform country selection
+       */
+      "listeners": [{
+        "event": "init",
+        "method": function(e) {
+          preSelectCountries( ["AO","AR","AU","BR","CA","CN","CZ","DZ","ES","FR","HN","IN","KZ","NG","NI","RU","SD","TZ","US"]);
+        }
+      }]
+    });
+
+    /**
+     * Function which extracts currently selected country list.
+     * Returns array consisting of country ISO2 codes
+     */
+
+    var colors = ['#118172','#672578','#FDB82C','#710000','#001E46','#81B822','#1174C3'];
+    function preSelectCountries(list) {
+      for(var i = 0; i < list.length; i++) {
+        var area = map.getObjectById(list[i]);
+        area.showAsSelected = true;
+        console.log(area);
+        area.selectedColorReal = colors[i%colors.length + 1];
+        map.returnInitialColor(area);
+      }
+    }
+
 
 
 })(jQuery); // End of use strict

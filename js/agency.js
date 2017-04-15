@@ -98,11 +98,12 @@
       for(var i = 0; i < list.length; i++) {
         var area = map.getObjectById(list[i]);
         area.showAsSelected = true;
-        console.log(area);
         area.selectedColorReal = colors[i%colors.length + 1];
         map.returnInitialColor(area);
       }
     }
+
+    
 
 
 

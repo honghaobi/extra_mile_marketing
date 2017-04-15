@@ -1030,6 +1030,14 @@ body {
     width: 150px;
 }
 
+@media (max-width:992px) {
+  #logo {
+    width: 90px;
+    
+  }
+}
+
+
 #hl-y {
     color: #FDB82C;
 }
@@ -2079,6 +2087,7 @@ body {
   }
 
   #chartdiv {
-  width: 100%;
-  height: 800px;
+    margin-left: -15%;
+    width: 130%;
+    height: 800px;
   }

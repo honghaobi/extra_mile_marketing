@@ -63,6 +63,16 @@
       $().timelinr();
     }
 
+    $('.search-btn').click(function(){
+      var searchText = $('input').val();
+      var tile = $('.s-img');
+      for (var i = 0; i < tile.length; i++) {
+        // tile[i].searchName =
+        //     console.log(tile[i].);
+        console.log(tile[i]);
+      }
+    });
+
     /**
      * Create the map
      */
@@ -102,9 +112,6 @@
         map.returnInitialColor(area);
       }
     }
-
-    
-
 
 
 })(jQuery); // End of use strict
